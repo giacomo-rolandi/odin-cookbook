@@ -1,0 +1,265 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100vw;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: 100vw;
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    list-style-type: none;
+    flex: 1;
+    align-items: center;
+    margin-left: 15%;
+    color: #F9FAF8;
+}
+
+.options {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    align-content: center;
+    gap: 25px;
+    margin-right: 15%;
+    list-style-type: none;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0px 60px 0px;
+    width: 100vw;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtitle {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.right {
+    flex: 1;
+    background-color:gray;
+    margin-left: 10px;
+    margin-right: 15%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    color: #E5E7EB;
+    margin: 15px 0px;
+    width: 18%;
+    background-color: #3882F6;
+    font-weight: bolder;
+    border: #1F2937;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.information {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    height: auto;
+}
+
+.block-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    gap: 10px;
+    align-items: center;
+    max-width: 300px;
+
+}
+
+.empty {
+    border-width: 5pxpx;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 10px;
+    height: 160px;
+    width: 160px;
+
+}
+
+.block-image .text {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.quotation {
+    flex: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.quotation .text {
+    text-align: left;
+    flex: 1;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 20px 20px 0px 20px;
+
+}
+
+.quotation .cit {
+    flex: 1;
+    width: 50vw;
+    text-align: end;
+    font-size: 18px;
+    
+}
+
+.signup {
+    flex: 1;
+    display: flex;
+    width: 100vw;
+    color: #1F2937;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.signup .section {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 30px 60px;
+    display: flex;
+    gap: 50px;
+    width: 60vw;
+}
+
+.signup .button {
+    color: #E5E7EB;
+    margin: 15px 0px;
+    background-color: #3882F6;
+    font-weight: bolder;
+    border: #1F2937;
+    border-radius: 5px;
+    padding: 20px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-right: 20%;
+
+}
+
+.signup .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20%;
+}
+
+.signup .first {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.signup .second {
+    color: #F9FAF8;
+    text-align: left;
+    width: 100%;
+    
+}
+
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 50px 0px;
+}
+
+.footer .text {
+    flex-direction: column;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 20px;
+}
